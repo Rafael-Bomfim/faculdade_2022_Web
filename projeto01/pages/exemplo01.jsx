@@ -9,7 +9,7 @@ export default function init(){ //exportando função sem parâmetros
             <h3>{soma(4,6)}</h3>
             <h3>Nome: {nome}</h3>
         </div>
-    ) //div dentro de parenteses permite que usemos html junto com Java Script
+    ) //div dentro de parenteses permite que usemos mais de um tag html junto com Java Script
 }
 
 function soma(a,b){
