@@ -11,7 +11,8 @@ export default function init(props){
 }
 
 function incrementar(numero){
-    return numero++
+    numero++
+    return numero
 }
 
 //++variavel = incrementa instantanemente
