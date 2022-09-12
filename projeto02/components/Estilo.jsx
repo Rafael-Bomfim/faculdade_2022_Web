@@ -1,4 +1,4 @@
-export default function Estilo(props){
+export default function inicio(props){
     return (
         <>
             <h1 style={{
