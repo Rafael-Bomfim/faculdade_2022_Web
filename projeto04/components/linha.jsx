@@ -10,7 +10,6 @@ import css from "../styles/linha.module.css"
             line.push(<Celula preto={isBlack}/>)
             isBlack = !isBlack
         }
-        
     
     return (
         <div className={css.lin}>
