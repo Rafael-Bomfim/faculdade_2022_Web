@@ -1,4 +1,5 @@
 import css from "../styles/celula.module.css"
+
 export default function init(props){
     return (
         <>
