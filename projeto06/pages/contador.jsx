@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 import Display from "../components/Display"
 
 export default function init(){
@@ -7,15 +7,13 @@ export default function init(){
     function somar(){
         setValor(valor+1)
     }
+    
+    const sub = () => setValor(valor - 1)
 
-    function subtrair(){
-        setValor(valor-1)
-    }
-
-    return(
+    return (
         <div style={{
-            display: "flex",
-            flexDirection: "column",
+            display:"flex",
+            flexDirection:"column",
             justifyContent: "center",
             alignItems: "center",
             height: "100vh",
@@ -23,9 +21,12 @@ export default function init(){
         }}>
             <Display numero={valor}/>
             <div>
-                <button onClick={subtrair}>-</button>
+                <button onClick={sub}>-</button>
                 <button onClick={somar}>+</button>
             </div>
+
+            <Display numero={valor}/>
+            
         </div>
     )
 }
